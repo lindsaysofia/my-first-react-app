@@ -2,7 +2,7 @@ import React from 'react';
 import Person from './Person';
 
 function NameList() {
-  const names = ['Linda', 'Sergio', 'Vazquez', 'Linda'];
+  const names = ['Name1', 'Name2', 'Name3', 'Name1'];
   const nameList = names.map((name, index) => <h2 key={index}>{index} {name}</h2>);
   return <div>{nameList}</div>;
 }
